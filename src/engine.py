@@ -147,6 +147,8 @@ def train(model: torch.nn.Module,
         test_loss: [...],
         test_acc: [...]} 
     """
+    model.to(device)
+
     # Create empty results dictionary
     results = {"train_loss": [],
         "train_acc": [],

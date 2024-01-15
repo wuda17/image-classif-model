@@ -4,6 +4,7 @@ Contains PyTorch model code to instantiate a VGG-16 model.
 import torch
 from torch import nn
 
+
 class VGG16(nn.Module):
     """
     Adapts the VGG-16 architecture for 1 channel grey-scaled images found at the following source:

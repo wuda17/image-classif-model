@@ -1,12 +1,14 @@
 """
 Train a classification model for the CIFAR-10 dataset.
 """
+
 import torch
+
 import data_setup, model_builder, engine, utils
 
 
 # Setup hyperparameters
-NUM_EPOCHS = 11
+NUM_EPOCHS = 2
 BATCH_SIZE = 32
 LEARNING_RATE = 0.01
 

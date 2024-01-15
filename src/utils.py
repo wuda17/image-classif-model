@@ -2,8 +2,6 @@ from typing import Dict, List
 
 import matplotlib.pyplot as plt
 
-from typing import Dict, List
-import matplotlib.pyplot as plt
 
 def plot_loss_curves(results: Dict[str, List[float]]):
     loss = results['train_loss']
